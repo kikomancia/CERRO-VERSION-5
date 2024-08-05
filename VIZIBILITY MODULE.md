@@ -4,4 +4,13 @@ Vizibility in Cerro version 5 focuses on tracking cargo movement through mobile 
 
 
 
+**ENTITIES**
+
+1. CUSTOMER EXPERIENCE
+2. CLIENTS
+3. MOBILE SCANNER USERS
+
+
+
+
 <!--- Eraser file: https://app.eraser.io/workspace/0gPYPUrNcr5XVujn3FH1 --->
