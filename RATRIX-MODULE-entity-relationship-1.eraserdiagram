@@ -5,6 +5,12 @@ tbl_island [color: green]{
   name string
 }
 
+tbl_island_rbu [color: green]{
+  id pk
+  name string
+}
+
+
 tbl_cities [color: violet]{
   id pk
   name string
@@ -13,21 +19,17 @@ tbl_cities [color: violet]{
 tbl_provinces [color: yellow]{
   id pk
   name string
-  
 }
 
-
-
-tbl_link_address{
+tbl_link_address [color: red]{
   id pk
   type string
   island_id fk
   prov_id fk
   city_id fk
-  iata_id fk
+  rbu_id fk
   disp_name string
 }
-
 
 tbl_rates_setting[color: orange]{
 id Auto Increment
@@ -35,7 +37,7 @@ approval_stat string
 charge_code pk
 clie_id fk
 charge_id fk
-service_mode fk
+service_mode_id fk
 date_encoded date
 date_expire date
 encoded_by fk
@@ -47,7 +49,9 @@ tbl_charging_types [color: violet]{
   charge_options string
   formula_code string
   descriptions string
+
 }
+
 
 tbl_rates_meta [color: orange]{
   id pk
@@ -64,6 +68,13 @@ tbl_service_mode [color: blue]{
    code string
 }
 
+tbl_clients []{
+  id auto Increment
+  client_control_number int pk
+  name string
+  company string
+  etc_data
+}
 
 
  
@@ -71,13 +82,13 @@ tbl_service_mode [color: blue]{
 tbl_link_address.island_id - tbl_island.id
 tbl_link_address.prov_id - tbl_provinces.id
 tbl_link_address.city_id - tbl_cities.id
-tbl_rates_setting.charge_code - tbl_service_mode.id
+tbl_rates_setting.service_mode_id  - tbl_service_mode.id
 tbl_rates_setting.charge_code - tbl_rates_meta.charge_code
-
+tbl_island_rbu.id <> tbl_link_address.rbu_id
 tbl_link_address.id <> tbl_rates_meta.origin_id
 tbl_link_address.id <> tbl_rates_meta.dest_id
-
 tbl_charging_types.id <> tbl_rates_setting.charge_id
+tbl_clients.client_control_number <> tbl_rates_setting.clie_id
 
 
 
@@ -85,3 +96,4 @@ tbl_charging_types.id <> tbl_rates_setting.charge_id
 
 
 
+ 
