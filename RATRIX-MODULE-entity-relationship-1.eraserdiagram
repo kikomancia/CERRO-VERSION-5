@@ -5,15 +5,16 @@ tbl_island [color: violet]{
   name string
 }
 
+tbl_cities [color: violet]{
+  id pk
+  name string
+}
+
 tbl_provinces [color: violet]{
   id pk
   name string
 }
 
-tbl_cities [color: violet]{
-  id pk
-  name string
-}
 
 
 tbl_link_address{
@@ -29,6 +30,7 @@ tbl_link_address{
 tbl_link_address.island_id - tbl_island.id
 tbl_link_address.prov_id - tbl_provinces.id
 tbl_link_address.city_id - tbl_cities.id
+
 
 
 

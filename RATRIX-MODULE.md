@@ -14,7 +14,7 @@ Rates management involves not only setting these prices but also adjusting them 
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/RATRIX-MODULE-entity-relationship-1.eraserdiagram" data-element-id="xXD47MaUH1Cp0yEHaJkGs"><img src="/.eraser/bkrIplCAOeWbI1oEbFTa___sKkFHJpiYsXPcATzOBluVMUS1rx2___---diagram----72ff2f7db5e6ba882ee5a68df9bec1fc.png" alt="" data-element-id="xXD47MaUH1Cp0yEHaJkGs" /></a>
+<a href="/RATRIX-MODULE-entity-relationship-1.eraserdiagram" data-element-id="xXD47MaUH1Cp0yEHaJkGs"><img src="/.eraser/bkrIplCAOeWbI1oEbFTa___sKkFHJpiYsXPcATzOBluVMUS1rx2___---diagram----373c3bfe15e63e9ec96d2c35edf6c3e4.png" alt="" data-element-id="xXD47MaUH1Cp0yEHaJkGs" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/bkrIplCAOeWbI1oEbFTa --->
