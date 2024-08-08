@@ -1,6 +1,6 @@
 entity-relationship-diagram
 
-tbl_island [color: violet]{
+tbl_island [color: green]{
   id pk
   name string
 }
@@ -10,9 +10,10 @@ tbl_cities [color: violet]{
   name string
 }
 
-tbl_provinces [color: violet]{
+tbl_provinces [color: yellow]{
   id pk
   name string
+  
 }
 
 
@@ -27,9 +28,59 @@ tbl_link_address{
   disp_name string
 }
 
+
+tbl_rates_setting[color: orange]{
+id Auto Increment
+approval_stat string
+charge_code pk
+clie_id fk
+charge_id fk
+service_mode fk
+date_encoded date
+date_expire date
+encoded_by fk
+}
+
+tbl_charging_types [color: violet]{
+  id pk
+  charge_type string
+  charge_options string
+  formula_code string
+  descriptions string
+}
+
+tbl_rates_meta [color: orange]{
+  id pk
+  charge_code fk
+  classification string
+  origin_id fk
+  dest_id fk
+  breakweight string
+}
+
+tbl_service_mode [color: blue]{
+   id pk
+   name string
+   code string
+}
+
+
+
+ 
+//CONNECTIONSSSSSSSSSS/////////
 tbl_link_address.island_id - tbl_island.id
 tbl_link_address.prov_id - tbl_provinces.id
 tbl_link_address.city_id - tbl_cities.id
+tbl_rates_setting.charge_code - tbl_service_mode.id
+tbl_rates_setting.charge_code - tbl_rates_meta.charge_code
+
+tbl_link_address.id <> tbl_rates_meta.origin_id
+tbl_link_address.id <> tbl_rates_meta.dest_id
+
+tbl_charging_types.id <> tbl_rates_setting.charge_id
+
+
+
 
 
 
