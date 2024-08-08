@@ -1,0 +1,34 @@
+entity-relationship-diagram
+
+tbl_island [color: violet]{
+  id pk
+  name string
+}
+
+tbl_provinces [color: violet]{
+  id pk
+  name string
+}
+
+tbl_cities [color: violet]{
+  id pk
+  name string
+}
+
+
+tbl_link_address{
+  id pk
+  type string
+  island_id fk
+  prov_id fk
+  city_id fk
+  iata_id fk
+  disp_name string
+}
+
+tbl_link_address.island_id - tbl_island.id
+tbl_link_address.prov_id - tbl_provinces.id
+tbl_link_address.city_id - tbl_cities.id
+
+
+
