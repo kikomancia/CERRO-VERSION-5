@@ -60,6 +60,7 @@ tbl_rates_meta [color: orange]{
   origin_id fk
   dest_id fk
   breakweight string
+  rates float
 }
 
 tbl_service_mode [color: blue]{
