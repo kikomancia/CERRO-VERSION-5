@@ -1,0 +1,31 @@
+entity-relationship-diagram
+
+tbl_mob_users [icon: user, color: blue] {
+  id string pk
+  displayName string
+  stn_id id fk
+  date_created date
+  username string
+  pin string
+}
+
+tbl_mobile_updates [icon: users, color: blue] {
+  id string pk
+  tracking_no string
+  status string
+  dateTime dateTime
+  remarks string
+  userId string
+  locScan string
+  station_id string
+}
+
+tbl_ops_stations [icon: home] {
+  id pk
+  station name
+}
+
+tbl_mob_users.id  > tbl_mobile_updates.userId
+tbl_mobile_updates.station_id > tbl_ops_stations.id
+
+
