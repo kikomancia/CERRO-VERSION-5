@@ -5,12 +5,8 @@ Visibility in Cerro focuses on tracking cargo movement through mobile scanning. 
 **ENTITIES**
 
 1. CUSTOMER EXPERIENCE
-2. ~CLIENTS~
+2. CLIENTS
 3. MOBILE SCANNER USERS
-
-
-
-
 LOAD ALLOWANCE
 
 1. CHECK DATA USAGE PER USER EX: LOAD GOOD FOR 1 MONTH SINCE AND KAIN LANG NAMAN NG DATA OF SCANNER IS ___________ KUMBAGA COMPUTED NA.
@@ -20,7 +16,7 @@ LOAD ALLOWANCE
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/VIZIBILITY MODULE-entity-relationship-1.eraserdiagram" data-element-id="nnjryV7qLsKj5L_1ma1g5"><img src="/.eraser/0gPYPUrNcr5XVujn3FH1___sKkFHJpiYsXPcATzOBluVMUS1rx2___---diagram----5b1297b725c7383462f29dfa85889ad8.png" alt="" data-element-id="nnjryV7qLsKj5L_1ma1g5" /></a>
+<a href="/VIZIBILITY MODULE-entity-relationship-1.eraserdiagram" data-element-id="nnjryV7qLsKj5L_1ma1g5"><img src="/.eraser/0gPYPUrNcr5XVujn3FH1___sKkFHJpiYsXPcATzOBluVMUS1rx2___---diagram----27f80fa2624a620367dd1bb891730376.png" alt="" data-element-id="nnjryV7qLsKj5L_1ma1g5" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/0gPYPUrNcr5XVujn3FH1 --->

@@ -27,5 +27,3 @@ tbl_ops_stations [icon: home] {
 
 tbl_mob_users.id  > tbl_mobile_updates.userId
 tbl_mobile_updates.station_id > tbl_ops_stations.id
-
-
