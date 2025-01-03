@@ -27,10 +27,10 @@
 **ADDRESSES **
 
 - Type 
-    - Main office
-    - Billing
-    - Pickup address 
-    - Delivery address
+    - `Main office` 
+    - `Billing` 
+    - `Pickup address ` 
+    - `Delivery address` 
 - Country
 - Address
 - Street (1)
@@ -43,26 +43,25 @@
 **CONTRACT AND REQUIREMENTS **
 
 - Payment Terms
-    - Collect - Cash on Delivery
-    - Prepaid - advance payment
-- Credit Terms - number of days within which payment is due.
+    - `Collect - Cash on Delivery` 
+    - `Prepaid - advance payment` 
 - Client terms
-    - Non-terms (if check then credit terms is disable)
-    - With terms
+    - `Non-terms (if check then credit terms is disable)` 
+    - `With terms` 
+        - Credit terms
 - Requirements
-    - TIN
-    - SEC
-    - MAYORS
-    - BIR
-    - Signed approval
+    - `TIN` 
+    - `SEC` 
+    - `MAYORS` 
+    - `BIR` 
+    - `Signed approval` 
 
 **VALIDATION **
 
 - Status
-    - Active
-    - Hold
-    - Blacklisted
-- Remarks
+    - `Active` 
+    - `Hold` 
+    - `Blacklisted` 
 
 
 **CONSIGNEE**
@@ -72,10 +71,11 @@
 - address
 
 
-- **OTHERS **
-    - Website
-    - Facebook
-    - Enable portal
+**OTHERS **
+
+- Website
+- Facebook
+- Enable portal
 
 
 
