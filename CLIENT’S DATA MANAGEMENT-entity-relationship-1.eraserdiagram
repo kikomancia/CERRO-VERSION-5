@@ -33,7 +33,7 @@ tbl_contact_persons[icon: gcp-permissions]{
     email string
 }
 
-tbl_addresses [icon: gcp-cloud-external-ip-addresses]{
+tbl_addresses [icon: map]{
   id int pk
   acct_no int fk
   default bol
@@ -56,9 +56,18 @@ tbl_consignee [icon: truck]{
   address_id int fk
 }
 
+tbl_consignee_add [icon: link] {
+  id int pk
+  add_id int fk
+  cons_id int fk
+}
+
 tbl_client.primary_contact_id <> tbl_contact_persons.id
 tbl_addresses.id  <> tbl_client.default_address_id
 tbl_client.account_no <> tbl_consignee.acct_id
+tbl_consignee_add.cons_id <> tbl_consignee.id
+tbl_consignee_add.add_id  <> tbl_addresses.id
+
 
 
 
