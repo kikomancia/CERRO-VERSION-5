@@ -1,0 +1,67 @@
+entity-relationship-diagram
+
+tbl_client [icon: user]{
+  account_no int pk
+  status string
+  type string
+  company_name string
+  primary_contact_id fk
+  default_address_id fk
+  payment_terms string
+  credit_terms int
+  client_terms string
+  TIN_no string
+  SEC_no string
+  BIR_no string
+  MAYORS string
+  file_upload
+  remarks string
+  website string
+  facebook string
+  date_encoded date
+  encoded_by id fk
+}
+
+tbl_contact_persons[icon: gcp-permissions]{
+    id int pk
+    acct_no fk
+    default bol
+    name string
+    department string
+    position string
+    contact_no string
+    email string
+}
+
+tbl_addresses [icon: gcp-cloud-external-ip-addresses]{
+  id int pk
+  acct_no int fk
+  default bol
+  type string
+  country string
+  address string
+  street_1 string
+  street_2 string
+  city string
+  brgy string
+  zip_code string
+  remarks string
+}
+
+tbl_consignee [icon: truck]{
+  id int pk
+  acct_id int fk
+  name string
+  contact_no string
+  address_id int fk
+}
+
+tbl_client.primary_contact_id <> tbl_contact_persons.id
+tbl_addresses.id  <> tbl_client.default_address_id
+tbl_client.account_no <> tbl_consignee.acct_id
+
+
+
+ 
+
+

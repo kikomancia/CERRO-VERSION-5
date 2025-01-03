@@ -2,14 +2,6 @@
 
  [﻿www.figma.com/board/hgKomSgmYKLzQkJqfDHuO2/CLIENT-DATA-MANAGEMENT-PROCESS?node-id=0-1&t=LwjP00qzwMtiUITG-1](https://www.figma.com/board/hgKomSgmYKLzQkJqfDHuO2/CLIENT-DATA-MANAGEMENT-PROCESS?node-id=0-1&t=LwjP00qzwMtiUITG-1) 
 
-Account Executive:
-The registration process begins with AE registering the new Clients account within the system entering necessary information such as Name, Company, email, contact number, address and any other required details. The AE also upload the requirements of the Clients such Mayor’s Permit, SEC and BIR. 
-
-Approval:
-Upon completion of the registration process, the Finance Manager assesses the requirements and other pertinent information before granting approval. Once approved, the system automatically update the AE via email about the status.
-
-
-
 
 
 **BASIC INFORMATION **
@@ -23,6 +15,9 @@ Upon completion of the registration process, the Finance Manager assesses the re
 
 **CONTACT PERSONS **
 
+- Type
+    - Consignee
+    - Employee
 - Name
 - Department
 - Position
@@ -31,7 +26,11 @@ Upon completion of the registration process, the Finance Manager assesses the re
 
 **ADDRESSES **
 
-- Type (Billing, Pickup loc., Main office, Delivery loc., )
+- Type 
+    - Main office
+    - Billing
+    - Pickup address 
+    - Delivery address
 - Country
 - Address
 - Street (1)
@@ -44,13 +43,12 @@ Upon completion of the registration process, the Finance Manager assesses the re
 **CONTRACT AND REQUIREMENTS **
 
 - Payment Terms
-- Collect - Cash on Delivery
-- Prepaid - advance payment
+    - Collect - Cash on Delivery
+    - Prepaid - advance payment
 - Credit Terms - number of days within which payment is due.
 - Client terms
     - Non-terms (if check then credit terms is disable)
     - With terms
-    - 
 - Requirements
     - TIN
     - SEC
@@ -67,14 +65,24 @@ Upon completion of the registration process, the Finance Manager assesses the re
 - Remarks
 
 
+**CONSIGNEE**
+
+- name
+- contact number
+- address
+
+
 - **OTHERS **
     - Website
     - Facebook
-    - Previous business name
-    - Date change
     - Enable portal
 
 
 
-
+<!-- eraser-additional-content -->
+## Diagrams
+<!-- eraser-additional-files -->
+<a href="/CLIENT’S DATA MANAGEMENT-entity-relationship-1.eraserdiagram" data-element-id="rhNZuuNxTKbYKYkQRwHQM"><img src="/.eraser/UBo8FJwbJ6GkqIkayFCN___sKkFHJpiYsXPcATzOBluVMUS1rx2___---diagram----60b303022b96373cc7a71ec0d7597415.png" alt="" data-element-id="rhNZuuNxTKbYKYkQRwHQM" /></a>
+<!-- end-eraser-additional-files -->
+<!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/UBo8FJwbJ6GkqIkayFCN --->
