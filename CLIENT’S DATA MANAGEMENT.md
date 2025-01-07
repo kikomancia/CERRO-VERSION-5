@@ -13,7 +13,7 @@
 - Mobile no. / Tel no.
 
 
-**CONTACT PERSONS **
+**CONTACT PERSONS - OPERATION AND FINANCE**
 
 - Type
     - Consignee
@@ -24,7 +24,7 @@
 - Mobile / Tel no.
 
 
-**ADDRESSES **
+**ADDRESSES - OPERATION AND FINANCE**
 
 - Type 
     - `Main office` 
@@ -40,21 +40,25 @@
 - Zip code
 - Remarks
 
-**CONTRACT AND REQUIREMENTS **
+**CONTRACT AND REQUIREMENTS  FINANCE SIDE**
 
 - Payment Terms
     - `Collect - Cash on Delivery` 
     - `Prepaid - advance payment` 
+    - any
 - Client terms
-    - `Non-terms (if check then credit terms is disable)` 
+    - `Non-terms (if check then credit terms is disable)` cash
     - `With terms` 
-        - Credit terms
-- Requirements
+        - Credit terms - 30 days, 60 days
+- _Currency (TBD)_
+- _Salesman Code (TBD) acct. by_
+- Requirements 
     - `TIN` 
     - `SEC` 
     - `MAYORS` 
     - `BIR` 
-    - `Signed approval` 
+    - `Signed approval`  
+    - _Document Upload (TBD) _
 
 **VALIDATION **
 
@@ -62,6 +66,11 @@
     - `Active` 
     - `Hold` 
     - `Blacklisted` 
+- _Categories (TBD)_
+    - _VIP_
+    - _Regular_
+    - _Dormant_
+    - _Large Accounts _
 
 
 **CONSIGNEE**
