@@ -27,8 +27,8 @@
     - `Main office` 
     - `Billing` 
     - `Pickup address ` 
-    - `Delivery address` 
-- Country
+    - `Delivery address` //optional
+- Country //MEDYO MALAWAK, MAARING IBA PANG MGA DETAALYE SA ADDRESS NA HINDI KATULAD NG SA PILIPINAS
 - Address
 - Street (1)
 - Street (2)
@@ -39,15 +39,41 @@
 
 **CONTRACT AND REQUIREMENTS  FINANCE SIDE**
 
-- Payment Terms
-    - `Collect - Cash on Delivery` 
-    - `Prepaid - advance payment` 
-    - any
+PAYMENT TERMS 
+
+- **CIA: **Cash in advance
+- **CBS: **Cash before shipment
+- **CND: **Cash next delivery
+- **COD:** Cash on delivery
+- **PIA:** Payment in advance
+
+
+-  `Option 1 ` 
+    - ` Paid by` 
+        - ` Shipper` 
+        - ` Consignee` 
+- Option 2
+    - Prepaid
+    - Collect
+- Option 3
+    - Advance Payment
+    - On the Spot payment
+    - Cash on Delivery
+
+
+- Payment Mode //SA SHIPPING LANG LALABAS
+    - Cash
+    - e-Wallet
+    - Bank Deposit
+    - Cheque
+    - Others
+
+
 - Client terms
     - `Non-terms (if check then credit terms is disable)` cash
     - `With terms` 
         - Credit terms - 30 days, 60 days
-- _Currency (TBD)_
+- _Currency (TBD) //(questionable)_
 - _Salesman Code (TBD) acct. by_
 - Requirements 
     - `TIN` 
@@ -57,20 +83,23 @@
     - `Signed approval`  
     - _Document Upload (TBD) _
 
-**VALIDATION **
+**VALIDATION**
 
 - Status
-    - `Active` 
+    - `Active` or `Validated` 
     - `Hold` 
+    - `Rejected` 
     - `Blacklisted` 
-- _Categories (TBD)_
-    - _VIP_
-    - _Regular_
-    - _Dormant_
-    - _Large Accounts _
+ 
+
+- ~_Categories (TBD) (Questionable) //Limited users can access, admins only_~
+    - ~_VIP_~
+    - ~_Regular_~
+    - ~_Dormant_~
+    - ~_Large Accounts _~
 
 
-**CONSIGNEE**
+**CONSIGNEE (DAPAT SA SHIPPING NA ILALAGAY)**
 
 - name
 - contact number
@@ -84,6 +113,13 @@
 - Website
 - Facebook
 - Enable portal
+
+
+
+
+**DATA EXAMPLE**
+
+- 
 
 
 
