@@ -79,15 +79,15 @@ PAYMENT TERMS
     - `SEC` 
     - `MAYORS` 
     - `BIR` 
-    - `Signed approval`  
-    - _Document Upload (TBD) _
+    - Upload Files
+        - `Signed approval`  
+        - `Other requirements ( SEC, BIR etc...)` 
 
 **VALIDATION**
 
 - Status
     - `Active` or `Validated` 
     - `Hold` 
-    - `Rejected` 
     - `Blacklisted` 
  
 
@@ -98,7 +98,11 @@ PAYMENT TERMS
     - ~_Large Accounts _~
 
 
-**CONSIGNEE //DAPAT SA SHIPPING NA ILALAGAY**
+**CONSIGNEE **
+
+**Q1 - DAPAT SA SHIPPING NA ILALAGAY**
+
+ANS 1 - Display only sa client management like contact person
 
 - name
 - contact number
@@ -112,13 +116,6 @@ PAYMENT TERMS
 - Website
 - Facebook
 - Enable portal
-
-
-
-
-**DATA EXAMPLE**
-
-- 
 
 
 
