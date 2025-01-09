@@ -6,15 +6,14 @@
 
 **BASIC INFORMATION **
 
+- Acct. Number
 - Client name
 - Client Type [Sole, Partnership, Corporation]
-- Primary Contact
-- Email
-- Mobile no. / Tel no.
 
 
 **CONTACT PERSONS - OPERATION AND FINANCE**
 
+- Primary? YES/NO
 - Name
 - Department
 - Position
@@ -28,7 +27,7 @@
     - `Billing` 
     - `Pickup address ` 
     - `Delivery address` //optional
-- Country //MEDYO MALAWAK, MAARING IBA PANG MGA DETAALYE SA ADDRESS NA HINDI KATULAD NG SA PILIPINAS
+    - `Primary? (YES / NO)` 
 - Address
 - Street (1)
 - Street (2)
@@ -56,12 +55,12 @@ PAYMENT TERMS
     - Prepaid
     - Collect
 - Option 3
-    - Advance Payment
+    - Advance Payment //Pwede magamit since may retransact tayo na feature, pero hindi pwedeng sabihin na pagadvance payment si shippr agad ang nagbayad pwede rin kasing magadvance payment si consignee since same transaction lang from previous ang babayaran nya
     - On the Spot payment
     - Cash on Delivery
 
 
-- Payment Mode //SA SHIPPING LANG LALABAS
+- Payment Mode //SA COLLECTION LALABASE PAG PAYMENT POSTING NA
     - Cash
     - e-Wallet
     - Bank Deposit
@@ -99,7 +98,7 @@ PAYMENT TERMS
     - ~_Large Accounts _~
 
 
-**CONSIGNEE (DAPAT SA SHIPPING NA ILALAGAY)**
+**CONSIGNEE //DAPAT SA SHIPPING NA ILALAGAY**
 
 - name
 - contact number
