@@ -20,6 +20,19 @@
 - Mobile / Tel no.
 
 
+**CONSIGNEE **
+
+**Q1 - DAPAT SA SHIPPING NA ILALAGAY**
+
+ANS 1 - Display only sa client management like contact person
+
+- name
+- contact number
+- address  
+//does it mean the Contact Persons and Consignee will both display on Shipping Module when selecting Receiver of the Cargo
+
+
+
 **ADDRESSES - OPERATION AND FINANCE**
 
 - Type 
@@ -98,16 +111,7 @@ PAYMENT TERMS
     - ~_Large Accounts _~
 
 
-**CONSIGNEE **
 
-**Q1 - DAPAT SA SHIPPING NA ILALAGAY**
-
-ANS 1 - Display only sa client management like contact person
-
-- name
-- contact number
-- address  
-//does it mean the Contact Persons and Consignee will both display on Shipping Module when selecting Receiver of the Cargo
 
 
 
