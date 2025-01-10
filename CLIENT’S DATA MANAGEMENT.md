@@ -8,7 +8,7 @@
 
 - Acct. Number
 - Client name
-- Client Type [Sole, Partnership, Corporation]
+- Client Type [Sole, Partnership, Corporation] 
 
 
 **CONTACT PERSONS - OPERATION AND FINANCE**
@@ -22,15 +22,11 @@
 
 **CONSIGNEE **
 
-**Q1 - DAPAT SA SHIPPING NA ILALAGAY**
-
-ANS 1 - Display only sa client management like contact person
-
-- name
-- contact number
-- address  
-//does it mean the Contact Persons and Consignee will both display on Shipping Module when selecting Receiver of the Cargo
-
+- Acct id
+- Company
+- Name
+- Contact number
+- Address  
 
 
 **ADDRESSES - OPERATION AND FINANCE**
@@ -51,42 +47,13 @@ ANS 1 - Display only sa client management like contact person
 
 **CONTRACT AND REQUIREMENTS  FINANCE SIDE**
 
-PAYMENT TERMS 
-
-- **CIA: **Cash in advance
-- **CBS: **Cash before shipment
-- **CND: **Cash next delivery
-- **COD:** Cash on delivery
-- **PIA:** Payment in advance
-
-
--  `Option 1 ` 
-    - ` Paid by` 
-        - ` Shipper` 
-        - ` Consignee` 
-- Option 2
+- Payment terms
     - Prepaid
     - Collect
-- Option 3
-    - Advance Payment //Pwede magamit since may retransact tayo na feature, pero hindi pwedeng sabihin na pagadvance payment si shippr agad ang nagbayad pwede rin kasing magadvance payment si consignee since same transaction lang from previous ang babayaran nya
-    - On the Spot payment
-    - Cash on Delivery
-
-
-- Payment Mode //SA COLLECTION LALABASE PAG PAYMENT POSTING NA
-    - Cash
-    - e-Wallet
-    - Bank Deposit
-    - Cheque
-    - Others
-
-
 - Client terms
-    - `Non-terms (if check then credit terms is disable)` cash
+    - `Non-terms (if check then credit terms is disable)` cash / on the spot payment
     - `With terms` 
         - Credit terms - 30 days, 60 days
-- _Currency (TBD) //(questionable)_
-- _Salesman Code (TBD) acct. by_
 - Requirements 
     - `TIN` 
     - `SEC` 
@@ -99,27 +66,14 @@ PAYMENT TERMS
 **VALIDATION**
 
 - Status
-    - `Active` or `Validated` 
+    - `Active` 
     - `Hold` 
-    - `Blacklisted` 
- 
-
-- ~_Categories (TBD) (Questionable) //Limited users can access, admins only_~
-    - ~_VIP_~
-    - ~_Regular_~
-    - ~_Dormant_~
-    - ~_Large Accounts _~
-
-
-
-
 
 
 **OTHERS **
 
 - Website
 - Facebook
-- Enable portal
 
 
 
