@@ -7,13 +7,17 @@
 - Acct. Number
 - Client name
 - Client Type [Sole, Partnership, Corporation]
-**CONTACT PERSONS - OPERATION AND FINANCE**
+
+
+**CONTACT PERSONS **
 
 - Primary? YES/NO
 - Name
 - Department
 - Position
 - Mobile / Tel no.
+
+
 **CONSIGNEE **
 
 - Acct id
@@ -21,7 +25,9 @@
 - Name
 - Contact number
 - Address
-**ADDRESSES - OPERATION AND FINANCE**
+
+
+**ADDRESSES **
 
 - Type 
     - `Main office`  
@@ -36,6 +42,8 @@
 - Brgy
 - Zip code
 - Remarks
+
+
 **CONTRACT AND REQUIREMENTS FINANCE SIDE**
 
 - Payment terms
@@ -53,11 +61,15 @@
     - Upload Files
         - `Signed approval`  
         - `Other requirements ( SEC, BIR etc...)` 
+
+
 **VALIDATION**
 
 - Status
     - `Active`  
     - `Hold` 
+
+
 **OTHERS **
 
 - Website
