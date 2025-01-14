@@ -90,11 +90,3 @@ tbl_link_address.id <> tbl_rates_meta.origin_id
 tbl_link_address.id <> tbl_rates_meta.dest_id
 tbl_charging_types.id <> tbl_rates_setting.charge_id
 tbl_clients.client_control_number <> tbl_rates_setting.clie_id
-
-
-
-
-
-
-
- 
