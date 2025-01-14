@@ -45,7 +45,7 @@
 - Remarks
 
 
-**CONTRACT AND REQUIREMENTS FINANCE SIDE**
+**CONTRACT AND REQUIREMENTS**
 
 - Payment terms
     - Prepaid
