@@ -38,7 +38,6 @@ tbl_addresses [icon: map]{
   acct_no int fk
   default bol
   type string
-  country string
   address string
   street_1 string
   street_2 string
@@ -50,20 +49,15 @@ tbl_addresses [icon: map]{
 
 tbl_consignee [icon: truck]{
   id int pk
-  acct_id int fk
+  acct_no int fk
+  company_name string
   name string
   contact_no string
-  address_id int fk
+  address string
 }
 
-tbl_consignee_add [icon: link] {
-  id int pk
-  add_id int fk
-  cons_id int fk
-}
+
 
 tbl_client.primary_contact_id <> tbl_contact_persons.id
 tbl_addresses.id  <> tbl_client.default_address_id
-tbl_client.account_no <> tbl_consignee.acct_id
-tbl_consignee_add.cons_id <> tbl_consignee.id
-tbl_consignee_add.add_id  <> tbl_addresses.id
+tbl_client.account_no <> tbl_consignee.acct_id 
