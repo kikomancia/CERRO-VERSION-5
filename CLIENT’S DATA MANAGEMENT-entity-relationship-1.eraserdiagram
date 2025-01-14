@@ -67,10 +67,3 @@ tbl_addresses.id  <> tbl_client.default_address_id
 tbl_client.account_no <> tbl_consignee.acct_id
 tbl_consignee_add.cons_id <> tbl_consignee.id
 tbl_consignee_add.add_id  <> tbl_addresses.id
-
-
-
-
- 
-
-
