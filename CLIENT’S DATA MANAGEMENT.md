@@ -2,6 +2,8 @@
 
  [﻿www.figma.com/board/hgKomSgmYKLzQkJqfDHuO2/CLIENT-DATA-MANAGEMENT-PROCESS?node-id=0-1&t=LwjP00qzwMtiUITG-1](https://www.figma.com/board/hgKomSgmYKLzQkJqfDHuO2/CLIENT-DATA-MANAGEMENT-PROCESS?node-id=0-1&t=LwjP00qzwMtiUITG-1) 
 
+
+
 **BASIC INFORMATION **
 
 - Acct. Number
@@ -18,10 +20,9 @@
 - Mobile / Tel no.
 
 
-**CONSIGNEE **
+**CONSIGNEE**
 
-- Acct id
-- Company
+- Company Name _(optional)_
 - Name
 - Contact number
 - Address
