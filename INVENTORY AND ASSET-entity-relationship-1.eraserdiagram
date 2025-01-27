@@ -1,0 +1,19 @@
+entity-relationship-diagram
+
+tbl_assets_data []{
+  id int pk ai
+  name string
+  type enum
+  category string
+  purchase_date purchase_date
+  cost_price decimal (10,2)
+  location string
+  vendor_id int fk
+  stock_level int 
+  reorder_level int
+  depreciation_rate decimal
+  book_value decimal
+  condition string 
+  disposal_date date 
+  batch_number int
+}
