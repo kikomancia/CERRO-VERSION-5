@@ -5,10 +5,7 @@ tbl_island [color: green]{
   name string
 }
 
-tbl_island_rbu [color: green]{
-  id pk
-  name string
-}
+
 
 
 tbl_cities [color: violet]{
@@ -85,7 +82,6 @@ tbl_link_address.prov_id - tbl_provinces.id
 tbl_link_address.city_id - tbl_cities.id
 tbl_rates_setting.service_mode_id  - tbl_service_mode.id
 tbl_rates_setting.charge_code - tbl_rates_meta.charge_code
-tbl_island_rbu.id <> tbl_link_address.rbu_id
 tbl_link_address.id <> tbl_rates_meta.origin_id
 tbl_link_address.id <> tbl_rates_meta.dest_id
 tbl_charging_types.id <> tbl_rates_setting.charge_id

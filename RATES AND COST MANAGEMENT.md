@@ -6,7 +6,7 @@
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/RATES AND COST MANAGEMENT-entity-relationship-1.eraserdiagram" data-element-id="LjDFpj2PL1lzYMgBaP-sd"><img src="/.eraser/fENPMjbo8O2cKLuslV09___sKkFHJpiYsXPcATzOBluVMUS1rx2___---diagram----472a3123eec577eb7900de9ac4bab2b7.png" alt="" data-element-id="LjDFpj2PL1lzYMgBaP-sd" /></a>
+<a href="/RATES AND COST MANAGEMENT-entity-relationship-1.eraserdiagram" data-element-id="LjDFpj2PL1lzYMgBaP-sd"><img src="/.eraser/fENPMjbo8O2cKLuslV09___sKkFHJpiYsXPcATzOBluVMUS1rx2___---diagram----50c60457575e0b89611d6daf757239f2.png" alt="" data-element-id="LjDFpj2PL1lzYMgBaP-sd" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/fENPMjbo8O2cKLuslV09 --->
