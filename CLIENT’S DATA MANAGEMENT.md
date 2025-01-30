@@ -9,6 +9,10 @@
 - Acct. Number
 - Client name
 - Client Type [Sole, Partnership, Corporation]
+**OTHERS **
+
+- Website
+- Facebook
 
 
 **CONTACT PERSONS **
@@ -22,8 +26,7 @@
 
 **CONSIGNEE**
 
-- Company Name _(optional)_
-- Name
+- Client Name/Company Name
 - Contact number
 - Address
 
@@ -37,8 +40,7 @@
     - `Delivery address`  //optional
     - `Primary? (YES / NO)` 
 - Address
-- Street (1)
-- Street (2)
+- Blk/Unit/Floor
 - City
 - Brgy
 - Zip code
@@ -71,10 +73,8 @@
     - `Hold` 
 
 
-**OTHERS **
 
-- Website
-- Facebook
+
 
 
 
