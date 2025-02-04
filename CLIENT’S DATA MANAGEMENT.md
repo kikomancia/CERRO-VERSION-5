@@ -26,7 +26,8 @@
 
 **CONSIGNEE**
 
-- Client Name/Company Name
+- Company Name
+- Contact Name
 - Contact number
 - Address
 
